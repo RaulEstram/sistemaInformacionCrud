@@ -1,5 +1,6 @@
 <?php
 
+    // configuraciones generales del programa
     define('URL','http://localhost/sistemaInformacionCrud/');
 
     define('HOST','beoi7s59mz6ilseh5hpr-mysql.services.clever-cloud.com');
