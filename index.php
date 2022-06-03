@@ -21,5 +21,12 @@
     require_once 'libs/view.php';
     require_once 'libs/app.php';
     
+    require_once 'models/usermodel.php';
+    require_once 'models/loginmodel.php';
+    require_once 'models/expensesmodel.php';
+    require_once 'models/categoriesmodel.php';
+    require_once 'models/incomesmodel.php';
+    
+
     $app = new App();
 ?>
