@@ -1,0 +1,79 @@
+{
+    "sites":[
+        {
+            "site" : "", 
+            "access" : "public", 
+            "role" :  ""
+        },
+        {
+            "site" : "home", 
+            "access" : "public", 
+            "role" :  ""
+        },
+        {
+            "site" : "login", 
+            "access" : "public", 
+            "role" :  ""
+        },
+        {
+            "site" : "signup", 
+            "access" : "public", 
+            "role" : ""
+        },
+        {
+            "site" : "dashboard", 
+            "access" : "private", 
+            "role" : "user"
+        },
+        {
+            "site" : "expenses", 
+            "access" : "private", 
+            "role" : "user"
+        },
+        {
+            "site" : "createExpense", 
+            "access" : "private", 
+            "role" : "user"
+        },
+        {
+            "site" : "updateExpense", 
+            "access" : "private", 
+            "role" : "user"
+        },
+        {
+            "site" : "incomes", 
+            "access" : "private", 
+            "role" : "user"
+        },
+        {
+            "site" : "createIncome", 
+            "access" : "private", 
+            "role" : "user"
+        },
+        {
+            "site" : "categories", 
+            "access" : "private", 
+            "role" : "user"
+        },
+        {
+            "site" : "createCategory", 
+            "access" : "private", 
+            "role" : "user"
+        },
+        {
+            "site" : "user", 
+            "access" : "private", 
+            "role" : "user"
+        },
+        {
+            "site" : "admin", 
+            "access" : "private", 
+            "role" : "admin"
+        }
+    ],
+
+    "default-sites":{
+        "user": "dashboard",
+        "admin": "admin"
+    }
+}
