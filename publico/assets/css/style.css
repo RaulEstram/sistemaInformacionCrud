@@ -1,0 +1,158 @@
+/* variables */
+
+:root {
+  --color-negro: rgb(31, 29, 29);
+  --font-ibm: 'IBM Plex Sans', sans-serif;
+}
+
+/* codigo necesario */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Importaciones */
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+/* Propiedades Generales*/
+
+.texto {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.titulo {
+  margin-top: 5rem;
+  font-size: 2.3rem;
+  color: var(--color-negro);
+  font-family: var(--font-ibm);
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.subsubtitulo {
+  font-size: 1.5rem;
+  color: var(--color-negro);
+  font-family: var(--font-ibm);
+  
+}
+
+.subtitulo {
+  font-size: 1.9rem;
+  color: var(--color-negro);
+  font-family: var(--font-ibm);
+}
+
+.texto {
+  color: var(--color-negro);
+  font-family: var(--font-ibm);
+  font-size: 1rem;
+}
+
+.texto-tabla {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.8rem;
+}
+
+.centrar-bloque {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.centrar-texto {
+  text-align: center;
+}
+
+.justificar-texto {
+  text-align: justify;
+}
+
+.transparente {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.37);
+  border-radius: 16px;
+  box-shadow: 0 7px 30px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(2.6px);
+  -webkit-backdrop-filter: blur(2.6px);
+  border: 1px solid rgba(255, 255, 255, 0.42);
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1200px;
+}
+
+a {
+  color: black;
+}
+
+
+/*Estilos particulares*/
+
+/* DASHBOARD */
+/* telefonos */
+.dash-content {
+  /* tamaño */
+  width: 90%;
+  max-width: 750px;
+  height: auto;
+  /* areas */
+
+  padding: 1rem;
+  margin-bottom: 2rem;
+
+  /* grid */
+  display: grid;
+  grid-gap: 10px;
+  grid-auto-rows: minmax(10px, auto);
+}
+
+.centrar-boton {
+  display: block;
+  margin-left: auto;
+}
+
+.mense {
+  background: rgba(211, 229, 227, 0.7);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+
+.mensaje p {
+  margin: 0;
+}
+
+.mensaje {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 50%;
+}
+
+.imagen-404{
+  display: block;
+  margin: auto;
+}
+
+
+
+
+@media only screen and (min-width: 992px) {
+  .navbar-nav:last-child{
+    margin-right: 7rem;
+  }
+  
+  .container-fluid:first-child{
+    margin-left: 7rem;
+  }
+}
