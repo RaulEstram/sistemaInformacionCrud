@@ -13,7 +13,12 @@
 <body>
     
     <?php
-        require_once 'views/header/headerlogin.php';  
+        if ($this->d['session']) {
+            require_once 'views/header/headerlogin.php';  
+        } else {
+            require_once 'views/header/headerlogout.php';  
+        }
+
     ?>
 
     <h1 class="titulo centrar-texto">Bienvenido</h1>
