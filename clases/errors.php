@@ -7,6 +7,11 @@
         //operation
         // dfb4dc6544b0dae81ea132de667b2a5d
         
+        const ERROR_ADMIN_NEWCATEGORY_EXISTS        = "1f8f0ae8963b16403c3ec9ebb851f156";
+        const ERROR_EXPENSES_DELETE                 = "8f48a0845b4f8704cb7e8b00d4981233";
+        const ERROR_EXPENSES_NEWEXPENSE             = "8f48a0845b4f8704cb7e8b00d4981233";
+        const ERROR_EXPENSES_NEWEXPENSE_EMPTY       = "d1dc1c33670b04aea104124ba0f3a9e8";
+        const ERROR_INCOMES_DELETE                  = "223d72f892f98d0432346ff1fcc30ca1";
         const ERROR_USER_UPDATEBUDGET               = "e99ab11bbeec9f63fb16f46133de85ec";
         const ERROR_USER_UPDATEBUDGET_EMPTY         = "807f75bf7acec5aa86993423b6841407";
         const ERROR_USER_UPDATENAME                 = "f1aef052d9afa16e04a3dcba8b4081cb";
@@ -33,6 +38,10 @@
 
         public function __construct(){
             $this->errorsList = [
+                Errors::ERROR_ADMIN_NEWCATEGORY_EXISTS => 'El nombre de la categoría ya existe, intenta otra',
+                Errors::ERROR_EXPENSES_DELETE           => 'Hubo un problema el eliminar el gasto, inténtalo de nuevo',
+                Errors::ERROR_EXPENSES_NEWEXPENSE       => 'Hubo un problema al crear el gasto, inténtalo de nuevo',
+                Errors::ERROR_EXPENSES_NEWEXPENSE_EMPTY => 'Los campos no pueden estar vacíos',
                 Errors::ERROR_USER_UPDATEBUDGET         => 'No se puede actualizar el presupuesto',
                 Errors::ERROR_USER_UPDATEBUDGET_EMPTY   => 'El presupuesto no puede estar vacio o ser negativo',
                 Errors::ERROR_USER_UPDATENAME           => 'No se puede actualizar el nombre',
