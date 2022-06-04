@@ -21,6 +21,12 @@
     require_once 'libs/view.php';
     require_once 'libs/app.php';
     
+
+    require_once 'clases/errors.php';
+    require_once 'clases/success.php';
+    require_once 'clases/session.php';
+    require_once 'clases/sessionController.php';
+
     require_once 'models/usermodel.php';
     require_once 'models/loginmodel.php';
     require_once 'models/expensesmodel.php';
