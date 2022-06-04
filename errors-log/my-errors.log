@@ -1,3 +1,204 @@
 [03-Jun-2022 05:09:59 Europe/Berlin] Inicio de Aplicacion
 [03-Jun-2022 05:09:59 Europe/Berlin] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in /opt/lampp/htdocs/sistemaInformacionCrud/libs/app.php on line 10
 [03-Jun-2022 05:09:59 Europe/Berlin] APP::construct -> no hay controlador especificado
+[04-Jun-2022 22:25:04 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:25:04 Europe/Berlin] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in /opt/lampp/htdocs/sistemaInformacionCrud/libs/app.php on line 10
+[04-Jun-2022 22:25:04 Europe/Berlin] APP::construct -> no hay controlador especificado
+[04-Jun-2022 22:25:04 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:25:04 Europe/Berlin] no session
+[04-Jun-2022 22:25:04 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:25:04 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/, url => Array --> 
+[04-Jun-2022 22:25:04 Europe/Berlin] sessionController::isPublic(): currentURL => 
+[04-Jun-2022 22:25:04 Europe/Berlin] is public
+[04-Jun-2022 22:25:04 Europe/Berlin] SessionController::validateSession() public page
+[04-Jun-2022 22:25:04 Europe/Berlin] PHP Warning:  Undefined array key "user" in /opt/lampp/htdocs/sistemaInformacionCrud/clases/session.php on line 18
+[04-Jun-2022 22:25:06 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:25:06 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:25:06 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:25:06 Europe/Berlin] no session
+[04-Jun-2022 22:25:06 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:25:06 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/login, url => Array --> login
+[04-Jun-2022 22:25:06 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[04-Jun-2022 22:25:06 Europe/Berlin] is public
+[04-Jun-2022 22:25:06 Europe/Berlin] SessionController::validateSession() public page
+[04-Jun-2022 22:25:06 Europe/Berlin] Login::construct -> inicio de login
+[04-Jun-2022 22:25:06 Europe/Berlin] APP::construct -> no hay metodo especificado
+[04-Jun-2022 22:25:06 Europe/Berlin] Login::render -> Carga el index de login
+[04-Jun-2022 22:25:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method View::showMessages() in /opt/lampp/htdocs/sistemaInformacionCrud/views/login/index.php:24
+Stack trace:
+#0 /opt/lampp/htdocs/sistemaInformacionCrud/libs/view.php(12): require_once()
+#1 /opt/lampp/htdocs/sistemaInformacionCrud/controllers/login.php(12): View->render('login/index')
+#2 /opt/lampp/htdocs/sistemaInformacionCrud/libs/app.php(83): Login->render()
+#3 /opt/lampp/htdocs/sistemaInformacionCrud/index.php(37): App->__construct()
+#4 {main}
+  thrown in /opt/lampp/htdocs/sistemaInformacionCrud/views/login/index.php on line 24
+[04-Jun-2022 22:25:09 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:25:09 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:25:09 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:25:09 Europe/Berlin] no session
+[04-Jun-2022 22:25:09 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:25:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/home, url => Array --> home
+[04-Jun-2022 22:25:09 Europe/Berlin] sessionController::isPublic(): currentURL => home
+[04-Jun-2022 22:25:09 Europe/Berlin] is public
+[04-Jun-2022 22:25:09 Europe/Berlin] SessionController::validateSession() public page
+[04-Jun-2022 22:25:09 Europe/Berlin] PHP Warning:  Undefined array key "user" in /opt/lampp/htdocs/sistemaInformacionCrud/clases/session.php on line 18
+[04-Jun-2022 22:25:09 Europe/Berlin] APP::construct -> no hay metodo especificado
+[04-Jun-2022 22:25:10 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:25:10 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:25:10 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:25:10 Europe/Berlin] no session
+[04-Jun-2022 22:25:10 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:25:10 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/login, url => Array --> login
+[04-Jun-2022 22:25:10 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[04-Jun-2022 22:25:10 Europe/Berlin] is public
+[04-Jun-2022 22:25:10 Europe/Berlin] SessionController::validateSession() public page
+[04-Jun-2022 22:25:10 Europe/Berlin] Login::construct -> inicio de login
+[04-Jun-2022 22:25:10 Europe/Berlin] APP::construct -> no hay metodo especificado
+[04-Jun-2022 22:25:10 Europe/Berlin] Login::render -> Carga el index de login
+[04-Jun-2022 22:25:10 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method View::showMessages() in /opt/lampp/htdocs/sistemaInformacionCrud/views/login/index.php:24
+Stack trace:
+#0 /opt/lampp/htdocs/sistemaInformacionCrud/libs/view.php(12): require_once()
+#1 /opt/lampp/htdocs/sistemaInformacionCrud/controllers/login.php(12): View->render('login/index')
+#2 /opt/lampp/htdocs/sistemaInformacionCrud/libs/app.php(83): Login->render()
+#3 /opt/lampp/htdocs/sistemaInformacionCrud/index.php(37): App->__construct()
+#4 {main}
+  thrown in /opt/lampp/htdocs/sistemaInformacionCrud/views/login/index.php on line 24
+[04-Jun-2022 22:25:25 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:25:25 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:25:25 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:25:25 Europe/Berlin] no session
+[04-Jun-2022 22:25:25 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:25:25 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/login, url => Array --> login
+[04-Jun-2022 22:25:25 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[04-Jun-2022 22:25:25 Europe/Berlin] is public
+[04-Jun-2022 22:25:25 Europe/Berlin] SessionController::validateSession() public page
+[04-Jun-2022 22:25:25 Europe/Berlin] Login::construct -> inicio de login
+[04-Jun-2022 22:25:25 Europe/Berlin] APP::construct -> no hay metodo especificado
+[04-Jun-2022 22:25:25 Europe/Berlin] Login::render -> Carga el index de login
+[04-Jun-2022 22:25:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method View::showMessages() in /opt/lampp/htdocs/sistemaInformacionCrud/views/login/index.php:24
+Stack trace:
+#0 /opt/lampp/htdocs/sistemaInformacionCrud/libs/view.php(12): require_once()
+#1 /opt/lampp/htdocs/sistemaInformacionCrud/controllers/login.php(12): View->render('login/index')
+#2 /opt/lampp/htdocs/sistemaInformacionCrud/libs/app.php(83): Login->render()
+#3 /opt/lampp/htdocs/sistemaInformacionCrud/index.php(37): App->__construct()
+#4 {main}
+  thrown in /opt/lampp/htdocs/sistemaInformacionCrud/views/login/index.php on line 24
+[04-Jun-2022 22:26:15 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:26:15 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:26:15 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:26:15 Europe/Berlin] no session
+[04-Jun-2022 22:26:15 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:26:15 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/login, url => Array --> login
+[04-Jun-2022 22:26:15 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[04-Jun-2022 22:26:15 Europe/Berlin] is public
+[04-Jun-2022 22:26:15 Europe/Berlin] SessionController::validateSession() public page
+[04-Jun-2022 22:26:15 Europe/Berlin] Login::construct -> inicio de login
+[04-Jun-2022 22:26:15 Europe/Berlin] APP::construct -> no hay metodo especificado
+[04-Jun-2022 22:26:15 Europe/Berlin] Login::render -> Carga el index de login
+[04-Jun-2022 22:26:15 Europe/Berlin] views/login/index.php --> 1
+[04-Jun-2022 22:26:18 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:26:18 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:26:18 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:26:18 Europe/Berlin] no session
+[04-Jun-2022 22:26:18 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:26:18 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/signup, url => Array --> signup
+[04-Jun-2022 22:26:18 Europe/Berlin] sessionController::isPublic(): currentURL => signup
+[04-Jun-2022 22:26:18 Europe/Berlin] is public
+[04-Jun-2022 22:26:18 Europe/Berlin] SessionController::validateSession() public page
+[04-Jun-2022 22:26:18 Europe/Berlin] APP::construct -> no hay metodo especificado
+[04-Jun-2022 22:26:18 Europe/Berlin] SINGUP::render() --> mostrando vista
+[04-Jun-2022 22:26:18 Europe/Berlin] views/login/signup.php --> 1
+[04-Jun-2022 22:26:39 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:26:39 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:26:39 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:26:39 Europe/Berlin] no session
+[04-Jun-2022 22:26:39 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:26:39 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/signup/newUser, url => Array --> signup
+[04-Jun-2022 22:26:39 Europe/Berlin] sessionController::isPublic(): currentURL => signup
+[04-Jun-2022 22:26:39 Europe/Berlin] is public
+[04-Jun-2022 22:26:39 Europe/Berlin] SessionController::validateSession() public page
+[04-Jun-2022 22:26:39 Europe/Berlin] APP::construct -> hay metodo especificado --> newUser
+[04-Jun-2022 22:26:39 Europe/Berlin] APP::construct -> hay metodo existe --> newUser
+[04-Jun-2022 22:26:39 Europe/Berlin] APP::construct -> metodo sin parametros --> newUser
+[04-Jun-2022 22:26:39 Europe/Berlin] APP::construct -> ejecutando metodo --> newUser
+[04-Jun-2022 22:26:39 Europe/Berlin] SIGNUP::newUser() --> entro al metodo
+[04-Jun-2022 22:26:41 Europe/Berlin] SIGNUP::newUser() --> Username o email ya existen
+[04-Jun-2022 22:26:41 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:26:41 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:26:41 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:26:41 Europe/Berlin] no session
+[04-Jun-2022 22:26:41 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:26:41 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/signup?error=a74accfd26e06d012266810952678cf3, url => Array --> signup?error=a74accfd26e06d012266810952678cf3
+[04-Jun-2022 22:26:41 Europe/Berlin] sessionController::isPublic(): currentURL => signup?error=a74accfd26e06d012266810952678cf3
+[04-Jun-2022 22:26:41 Europe/Berlin] is public
+[04-Jun-2022 22:26:41 Europe/Berlin] SessionController::validateSession() public page
+[04-Jun-2022 22:26:41 Europe/Berlin] APP::construct -> no hay metodo especificado
+[04-Jun-2022 22:26:41 Europe/Berlin] SINGUP::render() --> mostrando vista
+[04-Jun-2022 22:26:41 Europe/Berlin] View::handleError() existsKey =>El nombre de usuario ya existe, selecciona otro
+[04-Jun-2022 22:26:41 Europe/Berlin] views/login/signup.php --> 1
+[04-Jun-2022 22:27:28 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:27:28 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:27:28 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:27:28 Europe/Berlin] no session
+[04-Jun-2022 22:27:28 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:27:28 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/signup/newUser, url => Array --> signup
+[04-Jun-2022 22:27:28 Europe/Berlin] sessionController::isPublic(): currentURL => signup
+[04-Jun-2022 22:27:28 Europe/Berlin] is public
+[04-Jun-2022 22:27:28 Europe/Berlin] SessionController::validateSession() public page
+[04-Jun-2022 22:27:28 Europe/Berlin] APP::construct -> hay metodo especificado --> newUser
+[04-Jun-2022 22:27:28 Europe/Berlin] APP::construct -> hay metodo existe --> newUser
+[04-Jun-2022 22:27:28 Europe/Berlin] APP::construct -> metodo sin parametros --> newUser
+[04-Jun-2022 22:27:28 Europe/Berlin] APP::construct -> ejecutando metodo --> newUser
+[04-Jun-2022 22:27:28 Europe/Berlin] SIGNUP::newUser() --> entro al metodo
+[04-Jun-2022 22:27:29 Europe/Berlin] SIGNUP::newUser() --> se guardo
+[04-Jun-2022 22:27:29 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:27:29 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:27:29 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:27:29 Europe/Berlin] no session
+[04-Jun-2022 22:27:29 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:27:29 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/login?success=8281e04ed52ccfc13820d0f6acb0985a, url => Array --> login?success=8281e04ed52ccfc13820d0f6acb0985a
+[04-Jun-2022 22:27:29 Europe/Berlin] sessionController::isPublic(): currentURL => login?success=8281e04ed52ccfc13820d0f6acb0985a
+[04-Jun-2022 22:27:29 Europe/Berlin] is public
+[04-Jun-2022 22:27:29 Europe/Berlin] SessionController::validateSession() public page
+[04-Jun-2022 22:27:29 Europe/Berlin] Login::construct -> inicio de login
+[04-Jun-2022 22:27:29 Europe/Berlin] APP::construct -> no hay metodo especificado
+[04-Jun-2022 22:27:29 Europe/Berlin] Login::render -> Carga el index de login
+[04-Jun-2022 22:27:29 Europe/Berlin] View::handleError() existsKey =>1
+[04-Jun-2022 22:27:29 Europe/Berlin] views/login/index.php --> 1
+[04-Jun-2022 22:27:35 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:27:35 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:27:35 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:27:35 Europe/Berlin] no session
+[04-Jun-2022 22:27:35 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:27:35 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/login/authenticate, url => Array --> login
+[04-Jun-2022 22:27:35 Europe/Berlin] sessionController::isPublic(): currentURL => login
+[04-Jun-2022 22:27:35 Europe/Berlin] is public
+[04-Jun-2022 22:27:35 Europe/Berlin] SessionController::validateSession() public page
+[04-Jun-2022 22:27:35 Europe/Berlin] Login::construct -> inicio de login
+[04-Jun-2022 22:27:35 Europe/Berlin] APP::construct -> hay metodo especificado --> authenticate
+[04-Jun-2022 22:27:35 Europe/Berlin] APP::construct -> hay metodo existe --> authenticate
+[04-Jun-2022 22:27:35 Europe/Berlin] APP::construct -> metodo sin parametros --> authenticate
+[04-Jun-2022 22:27:35 Europe/Berlin] APP::construct -> ejecutando metodo --> authenticate
+[04-Jun-2022 22:27:35 Europe/Berlin] login: inicio
+[04-Jun-2022 22:27:36 Europe/Berlin] login: user id 10
+[04-Jun-2022 22:27:36 Europe/Berlin] login: user password 8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918
+[04-Jun-2022 22:27:36 Europe/Berlin] login: success
+[04-Jun-2022 22:27:36 Europe/Berlin] Login::authenticate() passed
+[04-Jun-2022 22:27:36 Europe/Berlin] sessionController::initialize(): user: rootmaster
+[04-Jun-2022 22:27:36 Europe/Berlin] sessionController::initialize(): id: 10
+[04-Jun-2022 22:27:36 Europe/Berlin] sessionController::authorizeAccess(): role: user
+[04-Jun-2022 22:27:36 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:27:36 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:27:36 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:27:36 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:27:36 Europe/Berlin] sessionController::validateSession(): username:rootmaster - role: user
+[04-Jun-2022 22:27:36 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:27:36 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/dashboard, url => Array --> dashboard
+[04-Jun-2022 22:27:36 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[04-Jun-2022 22:27:36 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/dashboard, url => Array --> dashboard
+[04-Jun-2022 22:27:36 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[04-Jun-2022 22:27:37 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:27:37 Europe/Berlin] Dashboard::construct -> inicio de login
+[04-Jun-2022 22:27:37 Europe/Berlin] APP::construct -> no hay metodo especificado
+[04-Jun-2022 22:27:37 Europe/Berlin] Dashboard::render -> Carga el index de Dashboard
+[04-Jun-2022 22:27:40 Europe/Berlin] views/dashboard/index.php --> 1
