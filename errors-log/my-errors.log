@@ -202,3 +202,444 @@ Stack trace:
 [04-Jun-2022 22:27:37 Europe/Berlin] APP::construct -> no hay metodo especificado
 [04-Jun-2022 22:27:37 Europe/Berlin] Dashboard::render -> Carga el index de Dashboard
 [04-Jun-2022 22:27:40 Europe/Berlin] views/dashboard/index.php --> 1
+[04-Jun-2022 22:29:10 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:29:10 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:29:10 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:29:10 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:29:10 Europe/Berlin] sessionController::validateSession(): username:rootmaster - role: user
+[04-Jun-2022 22:29:10 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:29:10 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/dashboard, url => Array --> dashboard
+[04-Jun-2022 22:29:10 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[04-Jun-2022 22:29:10 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/dashboard, url => Array --> dashboard
+[04-Jun-2022 22:29:10 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[04-Jun-2022 22:29:11 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:29:11 Europe/Berlin] Dashboard::construct -> inicio de login
+[04-Jun-2022 22:29:11 Europe/Berlin] APP::construct -> no hay metodo especificado
+[04-Jun-2022 22:29:11 Europe/Berlin] Dashboard::render -> Carga el index de Dashboard
+[04-Jun-2022 22:29:14 Europe/Berlin] views/dashboard/index.php --> 1
+[04-Jun-2022 22:29:19 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:29:19 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:29:19 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:29:19 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:29:19 Europe/Berlin] sessionController::validateSession(): username:rootmaster - role: user
+[04-Jun-2022 22:29:19 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:29:19 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/expenses, url => Array --> expenses
+[04-Jun-2022 22:29:19 Europe/Berlin] sessionController::isPublic(): currentURL => expenses
+[04-Jun-2022 22:29:19 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/expenses, url => Array --> expenses
+[04-Jun-2022 22:29:19 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[04-Jun-2022 22:29:20 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:29:20 Europe/Berlin] APP::construct -> no hay metodo especificado
+[04-Jun-2022 22:29:20 Europe/Berlin] xxxxxxxxxxxxxxxxx
+[04-Jun-2022 22:29:20 Europe/Berlin] views/expenses/index.php --> 1
+[04-Jun-2022 22:29:22 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:29:22 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:29:22 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:29:23 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:29:23 Europe/Berlin] sessionController::validateSession(): username:rootmaster - role: user
+[04-Jun-2022 22:29:23 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:29:23 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/createExpense, url => Array --> createExpense
+[04-Jun-2022 22:29:23 Europe/Berlin] sessionController::isPublic(): currentURL => createExpense
+[04-Jun-2022 22:29:23 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/createExpense, url => Array --> createExpense
+[04-Jun-2022 22:29:23 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[04-Jun-2022 22:29:23 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:29:23 Europe/Berlin] APP::construct -> no hay metodo especificado
+[04-Jun-2022 22:29:23 Europe/Berlin] views/expenses/create.php --> 1
+[04-Jun-2022 22:29:47 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:29:47 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:29:47 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:29:47 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:29:47 Europe/Berlin] sessionController::validateSession(): username:rootmaster - role: user
+[04-Jun-2022 22:29:47 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:29:47 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/createExpense/saveItem, url => Array --> createExpense
+[04-Jun-2022 22:29:47 Europe/Berlin] sessionController::isPublic(): currentURL => createExpense
+[04-Jun-2022 22:29:47 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/createExpense/saveItem, url => Array --> createExpense
+[04-Jun-2022 22:29:47 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[04-Jun-2022 22:29:48 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:29:48 Europe/Berlin] APP::construct -> hay metodo especificado --> saveItem
+[04-Jun-2022 22:29:48 Europe/Berlin] APP::construct -> hay metodo existe --> saveItem
+[04-Jun-2022 22:29:48 Europe/Berlin] APP::construct -> metodo sin parametros --> saveItem
+[04-Jun-2022 22:29:48 Europe/Berlin] APP::construct -> ejecutando metodo --> saveItem
+[04-Jun-2022 22:29:48 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:29:48 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:29:48 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:29:49 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:29:49 Europe/Berlin] sessionController::validateSession(): username:rootmaster - role: user
+[04-Jun-2022 22:29:49 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:29:49 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/createExpense, url => Array --> createExpense
+[04-Jun-2022 22:29:49 Europe/Berlin] sessionController::isPublic(): currentURL => createExpense
+[04-Jun-2022 22:29:49 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/createExpense, url => Array --> createExpense
+[04-Jun-2022 22:29:49 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[04-Jun-2022 22:29:49 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:29:49 Europe/Berlin] APP::construct -> no hay metodo especificado
+[04-Jun-2022 22:29:49 Europe/Berlin] views/expenses/create.php --> 1
+[04-Jun-2022 22:29:52 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:29:52 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:29:52 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:29:52 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:29:52 Europe/Berlin] sessionController::validateSession(): username:rootmaster - role: user
+[04-Jun-2022 22:29:52 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:29:52 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/createExpense, url => Array --> createExpense
+[04-Jun-2022 22:29:52 Europe/Berlin] sessionController::isPublic(): currentURL => createExpense
+[04-Jun-2022 22:29:52 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/createExpense, url => Array --> createExpense
+[04-Jun-2022 22:29:52 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[04-Jun-2022 22:29:53 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:29:53 Europe/Berlin] APP::construct -> no hay metodo especificado
+[04-Jun-2022 22:29:53 Europe/Berlin] views/expenses/create.php --> 1
+[04-Jun-2022 22:29:55 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:29:55 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:29:55 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:29:55 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:29:55 Europe/Berlin] sessionController::validateSession(): username:rootmaster - role: user
+[04-Jun-2022 22:29:55 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:29:55 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/expenses, url => Array --> expenses
+[04-Jun-2022 22:29:55 Europe/Berlin] sessionController::isPublic(): currentURL => expenses
+[04-Jun-2022 22:29:55 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/expenses, url => Array --> expenses
+[04-Jun-2022 22:29:55 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[04-Jun-2022 22:29:55 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:29:55 Europe/Berlin] APP::construct -> no hay metodo especificado
+[04-Jun-2022 22:29:55 Europe/Berlin] xxxxxxxxxxxxxxxxx
+[04-Jun-2022 22:29:56 Europe/Berlin] views/expenses/index.php --> 1
+[04-Jun-2022 22:29:58 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:29:58 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:29:58 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:29:58 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:29:58 Europe/Berlin] sessionController::validateSession(): username:rootmaster - role: user
+[04-Jun-2022 22:29:58 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:29:58 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/dashboard, url => Array --> dashboard
+[04-Jun-2022 22:29:58 Europe/Berlin] sessionController::isPublic(): currentURL => dashboard
+[04-Jun-2022 22:29:58 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/dashboard, url => Array --> dashboard
+[04-Jun-2022 22:29:58 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[04-Jun-2022 22:29:58 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:29:58 Europe/Berlin] Dashboard::construct -> inicio de login
+[04-Jun-2022 22:29:58 Europe/Berlin] APP::construct -> no hay metodo especificado
+[04-Jun-2022 22:29:58 Europe/Berlin] Dashboard::render -> Carga el index de Dashboard
+[04-Jun-2022 22:30:02 Europe/Berlin] views/dashboard/index.php --> 1
+[04-Jun-2022 22:30:04 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:30:04 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:30:04 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:30:04 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:30:04 Europe/Berlin] sessionController::validateSession(): username:rootmaster - role: user
+[04-Jun-2022 22:30:04 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:30:04 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/incomes, url => Array --> incomes
+[04-Jun-2022 22:30:04 Europe/Berlin] sessionController::isPublic(): currentURL => incomes
+[04-Jun-2022 22:30:04 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/incomes, url => Array --> incomes
+[04-Jun-2022 22:30:04 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[04-Jun-2022 22:30:05 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:30:05 Europe/Berlin] APP::construct -> no hay metodo especificado
+[04-Jun-2022 22:30:06 Europe/Berlin] views/incomes/index.php --> 1
+[04-Jun-2022 22:30:08 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:30:08 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:30:08 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:30:09 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:30:09 Europe/Berlin] sessionController::validateSession(): username:rootmaster - role: user
+[04-Jun-2022 22:30:09 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:30:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/categories, url => Array --> categories
+[04-Jun-2022 22:30:09 Europe/Berlin] sessionController::isPublic(): currentURL => categories
+[04-Jun-2022 22:30:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/categories, url => Array --> categories
+[04-Jun-2022 22:30:09 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[04-Jun-2022 22:30:09 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:30:09 Europe/Berlin] APP::construct -> no hay metodo especificado
+[04-Jun-2022 22:30:09 Europe/Berlin] views/categories/index.php --> 1
+[04-Jun-2022 22:30:11 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:30:11 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:30:11 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:30:12 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:30:12 Europe/Berlin] sessionController::validateSession(): username:rootmaster - role: user
+[04-Jun-2022 22:30:12 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:30:12 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/createCategory, url => Array --> createCategory
+[04-Jun-2022 22:30:12 Europe/Berlin] sessionController::isPublic(): currentURL => createCategory
+[04-Jun-2022 22:30:12 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/createCategory, url => Array --> createCategory
+[04-Jun-2022 22:30:12 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[04-Jun-2022 22:30:12 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:30:12 Europe/Berlin] APP::construct -> no hay metodo especificado
+[04-Jun-2022 22:30:13 Europe/Berlin] views/categories/create.php --> 1
+[04-Jun-2022 22:30:27 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:30:27 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:30:27 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:30:27 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:30:27 Europe/Berlin] sessionController::validateSession(): username:rootmaster - role: user
+[04-Jun-2022 22:30:27 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:30:27 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/createCategory/saveItem, url => Array --> createCategory
+[04-Jun-2022 22:30:27 Europe/Berlin] sessionController::isPublic(): currentURL => createCategory
+[04-Jun-2022 22:30:27 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/createCategory/saveItem, url => Array --> createCategory
+[04-Jun-2022 22:30:27 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[04-Jun-2022 22:30:28 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:30:28 Europe/Berlin] APP::construct -> hay metodo especificado --> saveItem
+[04-Jun-2022 22:30:28 Europe/Berlin] APP::construct -> hay metodo existe --> saveItem
+[04-Jun-2022 22:30:28 Europe/Berlin] APP::construct -> metodo sin parametros --> saveItem
+[04-Jun-2022 22:30:28 Europe/Berlin] APP::construct -> ejecutando metodo --> saveItem
+[04-Jun-2022 22:30:28 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:30:28 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:30:28 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:30:29 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:30:29 Europe/Berlin] sessionController::validateSession(): username:rootmaster - role: user
+[04-Jun-2022 22:30:29 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:30:29 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/createCategory, url => Array --> createCategory
+[04-Jun-2022 22:30:29 Europe/Berlin] sessionController::isPublic(): currentURL => createCategory
+[04-Jun-2022 22:30:29 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/createCategory, url => Array --> createCategory
+[04-Jun-2022 22:30:29 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[04-Jun-2022 22:30:29 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:30:29 Europe/Berlin] APP::construct -> no hay metodo especificado
+[04-Jun-2022 22:30:30 Europe/Berlin] views/categories/create.php --> 1
+[04-Jun-2022 22:30:34 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:30:34 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:30:34 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:30:34 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:30:34 Europe/Berlin] sessionController::validateSession(): username:rootmaster - role: user
+[04-Jun-2022 22:30:34 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:30:34 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/categories, url => Array --> categories
+[04-Jun-2022 22:30:34 Europe/Berlin] sessionController::isPublic(): currentURL => categories
+[04-Jun-2022 22:30:34 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/categories, url => Array --> categories
+[04-Jun-2022 22:30:34 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[04-Jun-2022 22:30:35 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:30:35 Europe/Berlin] APP::construct -> no hay metodo especificado
+[04-Jun-2022 22:30:35 Europe/Berlin] views/categories/index.php --> 1
+[04-Jun-2022 22:30:39 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:30:39 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:30:39 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:30:40 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:30:40 Europe/Berlin] sessionController::validateSession(): username:rootmaster - role: user
+[04-Jun-2022 22:30:40 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:30:40 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/incomes, url => Array --> incomes
+[04-Jun-2022 22:30:40 Europe/Berlin] sessionController::isPublic(): currentURL => incomes
+[04-Jun-2022 22:30:40 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/incomes, url => Array --> incomes
+[04-Jun-2022 22:30:40 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[04-Jun-2022 22:30:40 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:30:40 Europe/Berlin] APP::construct -> no hay metodo especificado
+[04-Jun-2022 22:30:41 Europe/Berlin] views/incomes/index.php --> 1
+[04-Jun-2022 22:30:43 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:30:43 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:30:43 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:30:43 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:30:43 Europe/Berlin] sessionController::validateSession(): username:rootmaster - role: user
+[04-Jun-2022 22:30:43 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:30:43 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/createIncome, url => Array --> createIncome
+[04-Jun-2022 22:30:43 Europe/Berlin] sessionController::isPublic(): currentURL => createIncome
+[04-Jun-2022 22:30:43 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/createIncome, url => Array --> createIncome
+[04-Jun-2022 22:30:43 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[04-Jun-2022 22:30:43 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:30:43 Europe/Berlin] APP::construct -> no hay metodo especificado
+[04-Jun-2022 22:30:44 Europe/Berlin] views/incomes/create.php --> 1
+[04-Jun-2022 22:31:02 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:31:02 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:31:02 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:31:03 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:31:03 Europe/Berlin] sessionController::validateSession(): username:rootmaster - role: user
+[04-Jun-2022 22:31:03 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:31:03 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/createIncome/saveItem, url => Array --> createIncome
+[04-Jun-2022 22:31:03 Europe/Berlin] sessionController::isPublic(): currentURL => createIncome
+[04-Jun-2022 22:31:03 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/createIncome/saveItem, url => Array --> createIncome
+[04-Jun-2022 22:31:03 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[04-Jun-2022 22:31:03 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:31:03 Europe/Berlin] APP::construct -> hay metodo especificado --> saveItem
+[04-Jun-2022 22:31:03 Europe/Berlin] APP::construct -> hay metodo existe --> saveItem
+[04-Jun-2022 22:31:03 Europe/Berlin] APP::construct -> metodo sin parametros --> saveItem
+[04-Jun-2022 22:31:03 Europe/Berlin] APP::construct -> ejecutando metodo --> saveItem
+[04-Jun-2022 22:31:04 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:31:04 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:31:04 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:31:04 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:31:04 Europe/Berlin] sessionController::validateSession(): username:rootmaster - role: user
+[04-Jun-2022 22:31:04 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:31:04 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/createIncome, url => Array --> createIncome
+[04-Jun-2022 22:31:04 Europe/Berlin] sessionController::isPublic(): currentURL => createIncome
+[04-Jun-2022 22:31:04 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/createIncome, url => Array --> createIncome
+[04-Jun-2022 22:31:04 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[04-Jun-2022 22:31:04 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:31:04 Europe/Berlin] APP::construct -> no hay metodo especificado
+[04-Jun-2022 22:31:05 Europe/Berlin] views/incomes/create.php --> 1
+[04-Jun-2022 22:31:08 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:31:08 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:31:08 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:31:08 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:31:08 Europe/Berlin] sessionController::validateSession(): username:rootmaster - role: user
+[04-Jun-2022 22:31:08 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:31:08 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/incomes, url => Array --> incomes
+[04-Jun-2022 22:31:08 Europe/Berlin] sessionController::isPublic(): currentURL => incomes
+[04-Jun-2022 22:31:08 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/incomes, url => Array --> incomes
+[04-Jun-2022 22:31:08 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[04-Jun-2022 22:31:08 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:31:08 Europe/Berlin] APP::construct -> no hay metodo especificado
+[04-Jun-2022 22:31:09 Europe/Berlin] views/incomes/index.php --> 1
+[04-Jun-2022 22:31:15 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:31:15 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:31:15 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:31:16 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:31:16 Europe/Berlin] sessionController::validateSession(): username:rootmaster - role: user
+[04-Jun-2022 22:31:16 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:31:16 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/incomes/updateItem, url => Array --> incomes
+[04-Jun-2022 22:31:16 Europe/Berlin] sessionController::isPublic(): currentURL => incomes
+[04-Jun-2022 22:31:16 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/incomes/updateItem, url => Array --> incomes
+[04-Jun-2022 22:31:16 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[04-Jun-2022 22:31:16 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:31:16 Europe/Berlin] APP::construct -> hay metodo especificado --> updateItem
+[04-Jun-2022 22:31:16 Europe/Berlin] APP::construct -> hay metodo existe --> updateItem
+[04-Jun-2022 22:31:16 Europe/Berlin] APP::construct -> metodo sin parametros --> updateItem
+[04-Jun-2022 22:31:16 Europe/Berlin] APP::construct -> ejecutando metodo --> updateItem
+[04-Jun-2022 22:31:17 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:31:17 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:31:17 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:31:18 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:31:18 Europe/Berlin] sessionController::validateSession(): username:rootmaster - role: user
+[04-Jun-2022 22:31:18 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:31:18 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/incomes, url => Array --> incomes
+[04-Jun-2022 22:31:18 Europe/Berlin] sessionController::isPublic(): currentURL => incomes
+[04-Jun-2022 22:31:18 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/incomes, url => Array --> incomes
+[04-Jun-2022 22:31:18 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[04-Jun-2022 22:31:18 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:31:18 Europe/Berlin] APP::construct -> no hay metodo especificado
+[04-Jun-2022 22:31:19 Europe/Berlin] views/incomes/index.php --> 1
+[04-Jun-2022 22:31:22 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:31:22 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:31:22 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:31:22 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:31:22 Europe/Berlin] sessionController::validateSession(): username:rootmaster - role: user
+[04-Jun-2022 22:31:22 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:31:22 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/expenses, url => Array --> expenses
+[04-Jun-2022 22:31:22 Europe/Berlin] sessionController::isPublic(): currentURL => expenses
+[04-Jun-2022 22:31:22 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/expenses, url => Array --> expenses
+[04-Jun-2022 22:31:22 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[04-Jun-2022 22:31:23 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:31:23 Europe/Berlin] APP::construct -> no hay metodo especificado
+[04-Jun-2022 22:31:23 Europe/Berlin] xxxxxxxxxxxxxxxxx
+[04-Jun-2022 22:31:24 Europe/Berlin] views/expenses/index.php --> 1
+[04-Jun-2022 22:31:28 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:31:28 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:31:28 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:31:29 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:31:29 Europe/Berlin] sessionController::validateSession(): username:rootmaster - role: user
+[04-Jun-2022 22:31:29 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:31:29 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/expenses/updateItem, url => Array --> expenses
+[04-Jun-2022 22:31:29 Europe/Berlin] sessionController::isPublic(): currentURL => expenses
+[04-Jun-2022 22:31:29 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/expenses/updateItem, url => Array --> expenses
+[04-Jun-2022 22:31:29 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[04-Jun-2022 22:31:29 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:31:29 Europe/Berlin] APP::construct -> hay metodo especificado --> updateItem
+[04-Jun-2022 22:31:29 Europe/Berlin] APP::construct -> hay metodo existe --> updateItem
+[04-Jun-2022 22:31:29 Europe/Berlin] APP::construct -> metodo sin parametros --> updateItem
+[04-Jun-2022 22:31:29 Europe/Berlin] APP::construct -> ejecutando metodo --> updateItem
+[04-Jun-2022 22:31:30 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:31:30 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:31:30 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:31:30 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:31:30 Europe/Berlin] sessionController::validateSession(): username:rootmaster - role: user
+[04-Jun-2022 22:31:30 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:31:30 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/expenses, url => Array --> expenses
+[04-Jun-2022 22:31:30 Europe/Berlin] sessionController::isPublic(): currentURL => expenses
+[04-Jun-2022 22:31:30 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/expenses, url => Array --> expenses
+[04-Jun-2022 22:31:30 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[04-Jun-2022 22:31:31 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:31:31 Europe/Berlin] APP::construct -> no hay metodo especificado
+[04-Jun-2022 22:31:31 Europe/Berlin] xxxxxxxxxxxxxxxxx
+[04-Jun-2022 22:31:32 Europe/Berlin] views/expenses/index.php --> 1
+[04-Jun-2022 22:31:35 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:31:36 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:31:36 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:31:36 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:31:36 Europe/Berlin] sessionController::validateSession(): username:rootmaster - role: user
+[04-Jun-2022 22:31:36 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:31:36 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/categories, url => Array --> categories
+[04-Jun-2022 22:31:36 Europe/Berlin] sessionController::isPublic(): currentURL => categories
+[04-Jun-2022 22:31:36 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/categories, url => Array --> categories
+[04-Jun-2022 22:31:36 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[04-Jun-2022 22:31:36 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:31:36 Europe/Berlin] APP::construct -> no hay metodo especificado
+[04-Jun-2022 22:31:37 Europe/Berlin] views/categories/index.php --> 1
+[04-Jun-2022 22:31:40 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:31:40 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:31:40 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:31:41 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:31:41 Europe/Berlin] sessionController::validateSession(): username:rootmaster - role: user
+[04-Jun-2022 22:31:41 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:31:41 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/categories/updateItem, url => Array --> categories
+[04-Jun-2022 22:31:41 Europe/Berlin] sessionController::isPublic(): currentURL => categories
+[04-Jun-2022 22:31:41 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/categories/updateItem, url => Array --> categories
+[04-Jun-2022 22:31:41 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[04-Jun-2022 22:31:41 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:31:41 Europe/Berlin] APP::construct -> hay metodo especificado --> updateItem
+[04-Jun-2022 22:31:41 Europe/Berlin] APP::construct -> hay metodo existe --> updateItem
+[04-Jun-2022 22:31:41 Europe/Berlin] APP::construct -> metodo sin parametros --> updateItem
+[04-Jun-2022 22:31:41 Europe/Berlin] APP::construct -> ejecutando metodo --> updateItem
+[04-Jun-2022 22:31:42 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:31:42 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:31:42 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:31:43 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:31:43 Europe/Berlin] sessionController::validateSession(): username:rootmaster - role: user
+[04-Jun-2022 22:31:43 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:31:43 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/categories, url => Array --> categories
+[04-Jun-2022 22:31:43 Europe/Berlin] sessionController::isPublic(): currentURL => categories
+[04-Jun-2022 22:31:43 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/categories, url => Array --> categories
+[04-Jun-2022 22:31:43 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[04-Jun-2022 22:31:43 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:31:43 Europe/Berlin] APP::construct -> no hay metodo especificado
+[04-Jun-2022 22:31:43 Europe/Berlin] views/categories/index.php --> 1
+[04-Jun-2022 22:31:47 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:31:47 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:31:47 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:31:47 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:31:47 Europe/Berlin] sessionController::validateSession(): username:rootmaster - role: user
+[04-Jun-2022 22:31:47 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:31:47 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/incomes, url => Array --> incomes
+[04-Jun-2022 22:31:47 Europe/Berlin] sessionController::isPublic(): currentURL => incomes
+[04-Jun-2022 22:31:47 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/incomes, url => Array --> incomes
+[04-Jun-2022 22:31:47 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[04-Jun-2022 22:31:47 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:31:47 Europe/Berlin] APP::construct -> no hay metodo especificado
+[04-Jun-2022 22:31:48 Europe/Berlin] views/incomes/index.php --> 1
+[04-Jun-2022 22:31:50 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:31:50 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:31:50 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:31:50 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:31:50 Europe/Berlin] sessionController::validateSession(): username:rootmaster - role: user
+[04-Jun-2022 22:31:50 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:31:50 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/expenses, url => Array --> expenses
+[04-Jun-2022 22:31:50 Europe/Berlin] sessionController::isPublic(): currentURL => expenses
+[04-Jun-2022 22:31:50 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/expenses, url => Array --> expenses
+[04-Jun-2022 22:31:50 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[04-Jun-2022 22:31:50 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:31:50 Europe/Berlin] APP::construct -> no hay metodo especificado
+[04-Jun-2022 22:31:50 Europe/Berlin] xxxxxxxxxxxxxxxxx
+[04-Jun-2022 22:31:51 Europe/Berlin] views/expenses/index.php --> 1
+[04-Jun-2022 22:31:53 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:31:53 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:31:53 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:31:54 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:31:54 Europe/Berlin] sessionController::validateSession(): username:rootmaster - role: user
+[04-Jun-2022 22:31:54 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:31:54 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/user, url => Array --> user
+[04-Jun-2022 22:31:54 Europe/Berlin] sessionController::isPublic(): currentURL => user
+[04-Jun-2022 22:31:54 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/user, url => Array --> user
+[04-Jun-2022 22:31:54 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[04-Jun-2022 22:31:54 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:31:54 Europe/Berlin] APP::construct -> no hay metodo especificado
+[04-Jun-2022 22:31:54 Europe/Berlin] views/user/index.php --> 1
+[04-Jun-2022 22:32:00 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:32:00 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:32:00 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:32:01 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:32:01 Europe/Berlin] sessionController::validateSession(): username:rootmaster - role: user
+[04-Jun-2022 22:32:01 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:32:01 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/user/updateName, url => Array --> user
+[04-Jun-2022 22:32:01 Europe/Berlin] sessionController::isPublic(): currentURL => user
+[04-Jun-2022 22:32:01 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/user/updateName, url => Array --> user
+[04-Jun-2022 22:32:01 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[04-Jun-2022 22:32:01 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:32:01 Europe/Berlin] APP::construct -> hay metodo especificado --> updateName
+[04-Jun-2022 22:32:01 Europe/Berlin] APP::construct -> hay metodo existe --> updateName
+[04-Jun-2022 22:32:01 Europe/Berlin] APP::construct -> metodo sin parametros --> updateName
+[04-Jun-2022 22:32:01 Europe/Berlin] APP::construct -> ejecutando metodo --> updateName
+[04-Jun-2022 22:32:01 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, string given in /opt/lampp/htdocs/sistemaInformacionCrud/libs/controller.php on line 21
+[04-Jun-2022 22:32:02 Europe/Berlin] Inicio de Aplicacion
+[04-Jun-2022 22:32:02 Europe/Berlin] APP::construct -> hay controlador especificado
+[04-Jun-2022 22:32:02 Europe/Berlin] SessionController::validateSession()
+[04-Jun-2022 22:32:02 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:32:02 Europe/Berlin] sessionController::validateSession(): username:rootmaster - role: user
+[04-Jun-2022 22:32:02 Europe/Berlin] PHP Warning:  Array to string conversion in /opt/lampp/htdocs/sistemaInformacionCrud/clases/sessionController.php on line 192
+[04-Jun-2022 22:32:02 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/user?success=6fb34a5e4118fb823636ca24a1d21669, url => Array --> user?success=6fb34a5e4118fb823636ca24a1d21669
+[04-Jun-2022 22:32:02 Europe/Berlin] sessionController::isPublic(): currentURL => user?success=6fb34a5e4118fb823636ca24a1d21669
+[04-Jun-2022 22:32:02 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/sistemaInformacionCrud/user?success=6fb34a5e4118fb823636ca24a1d21669, url => Array --> user?success=6fb34a5e4118fb823636ca24a1d21669
+[04-Jun-2022 22:32:02 Europe/Berlin] SessionController::validateSession() => autorizado, lo deja pasar
+[04-Jun-2022 22:32:03 Europe/Berlin] sessionController::getUserSessionData(): rootmaster
+[04-Jun-2022 22:32:03 Europe/Berlin] APP::construct -> no hay metodo especificado
+[04-Jun-2022 22:32:03 Europe/Berlin] View::handleError() existsKey =>1
+[04-Jun-2022 22:32:03 Europe/Berlin] views/user/index.php --> 1
