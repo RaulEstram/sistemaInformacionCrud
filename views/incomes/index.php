@@ -13,7 +13,7 @@ $categorias = $this->d['categories'];
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./publico/assets/css/normalize.css">
     <link rel="stylesheet" href="./publico/assets/css/style.css">
-    <title>Gastos</title>
+    <title>Incomes</title>
 </head>
 
 <body>
@@ -21,7 +21,7 @@ $categorias = $this->d['categories'];
     require_once 'views/header/headerlogin.php';
     ?>
 
-    <h1 class="titulo centrar-texto">Gastos</h1>
+    <h1 class="titulo centrar-texto">Ingresos</h1>
 
     <main class="contenedor centrar-bloque">
 
